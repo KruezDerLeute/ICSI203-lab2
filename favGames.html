@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .Games img {
+        width: 300px;
+        height: 450px;
+        border-radius: 20px;
+      }
+
+      .Games tr td {
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        /* border: 1px solid white; */
+        vertical-align: large;
+      }
+
+      .Games tr td p {
+        color: aliceblue;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body style="font-family: Inconsolata;">
+    <header>
+      <table>
+        <tr style="color: white;">
+          <td class="logo"><a href="index.html">Home</a></td>
+          <td class="col"><a href="aboutme.html">About me</a></td>
+          <td class="col"><a href="favGames.html">My Favorite Games</a></td>
+
+          <td class="col">
+            <a href="programmingLan.html">My Experience in Programming</a>
+          </td>
+          <td class="col"><a href="contact.html">Contact me</a></td>
+        </tr>
+      </table>
+    </header>
+
+    <main>
+      <div class="container">
+        <table class="Games" style="justify-content: center;">
+          <tr>
+            <td>
+              <a href="">
+                <img src="/resource/games/ds3.png" />
+              </a>
+              <p>most difficult game fr</p>
+            </td>
+            <td>
+              <a href="https://www.bandainamcoent.com/games/dark-souls-iii"
+                ><img src="./resource/games/er.png"
+              /></a>
+
+              <p>It's aight <br />(second hardest game)</p>
+            </td>
+            <td>
+              <a
+                href="https://www.paradoxinteractive.com/games/hearts-of-iron-iv/about"
+                ><img src="./resource/games/hoi4.png" />
+              </a>
+
+              <p>Personal favorate</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://store.steampowered.com/app/393380/Squad/"
+                ><img src="./resource/games/squad.png"
+              /></a>
+              <p>Quite immersive and realistic game</p>
+            </td>
+            <td>
+              <a href="https://warthunder.com/en">
+                <img src="./resource/games/wt.png"
+              /></a>
+              <p>I hate this damn game <br />I don't know why I play this</p>
+            </td>
+            <td>
+              <a href="https://playvalorant.com/en-gb/">
+                <img src="./resource/games/val.png" />
+              </a>
+              <p>Fuck this game</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </main>
+
+    <script>
+      function showInfo() {
+        const info = document.getElementById("info");
+        info.style.display = info.style.display === "none" ? "block" : "none";
+      }
+    </script>
+  </body>
+</html>

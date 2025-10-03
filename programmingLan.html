@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="font-family: Inconsolata;">
+    <header>
+      <table>
+        <tr style="color: white;">
+          <td class="logo"><a href="index.html">Home</a></td>
+          <td class="col"><a href="aboutme.html">About me</a></td>
+          <td class="col"><a href="favGames.html">My Favorite Games</a></td>
+
+          <td class="col">
+            <a href="programmingLan.html">My Experience in Programming</a>
+          </td>
+          <td class="col"><a href="contact.html">Contact me</a></td>
+        </tr>
+      </table>
+    </header>
+
+    <main>
+      <div class="container ">
+        <table>
+          <tr>
+            <td
+              rowspan="2"
+              style="background-color: rgb(255, 255, 255); border-radius: 20px; padding: 20px"
+            >
+              <h2 style="color: rgb(0, 0, 0);">
+                &nbspHere's my experience with programming!<br />
+              </h2>
+
+              <p style="text-align: justify; color: rgb(0, 0, 0);">
+                I've started my journey with C#, .NET environment in 2021. With
+                dotnet, I've built several desktop applications. Then, I got
+                into web development frameworks such as ASP.NET Core, Next.js,
+                Node.js. Along the way I've managed to get my hands on these:
+              </p>
+              <table
+                style="width: 100%; margin-top: 20px; border-collapse: collapse;"
+              >
+                <tr style="background-color: #f0f0f0;">
+                  <th style="padding: 10px; text-align: left;">Skill</th>
+                  <th style="padding: 10px; text-align: left;">Experience</th>
+                </tr>
+                <tr>
+                  <td>C#</td>
+                  <td>1 year</td>
+                </tr>
+                <tr>
+                  <td>ASP.NET Core</td>
+                  <td>1 year</td>
+                </tr>
+                <tr>
+                  <td>Next.js</td>
+                  <td>2 months</td>
+                </tr>
+                <tr>
+                  <td>Node.js</td>
+                  <td>2 months</td>
+                </tr>
+                <tr>
+                  <td>HTML / CSS / JS</td>
+                  <td>3 months</td>
+                </tr>
+                <tr>
+                  <td>C/C++</td>
+                  <td>3 months</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </main>
+
+    <script>
+      function showInfo() {
+        const info = document.getElementById("info");
+        info.style.display = info.style.display === "none" ? "block" : "none";
+      }
+    </script>
+  </body>
+</html>
